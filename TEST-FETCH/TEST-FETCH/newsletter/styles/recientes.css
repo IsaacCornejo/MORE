@@ -1,0 +1,27 @@
+.lastest {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lastest__container,
+.sports__container,
+.politics__container {
+  width: 100%; /* Ajusta esto según el ancho de tu contenedor visible */
+  scrollbar-width: thin; /* Ancho del scrollbar */
+  scrollbar-color: #888 #f0f0f0; /* Color del pulgar y de la pista */
+}
+
+.lastest__news,
+.sports__news,
+.politics__news   {
+  width: 100%; /* Ancho específico del contenedor interno */
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#display-more {
+  color: red;
+  cursor: pointer;
+}
